@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es">
+<head>
+	<title>IMOC</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<!--<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>--->
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="container-contact100">
+		<img class="contact100-map" src="1.png" width="50%" height="100%">
+	<!--	<div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="1.jpg" data-scrollwhell="0" data-draggable="1"></div>--->
+	<center>
+<img class="ai" src="images/192.png"><br>
+<img height="80px" width="80px" style="margin-left:35px;margin-top: 0px;
+position: center;
+box-shadow:    8px #E74C3C;
+border-radius: 40%;
+  animation: 6s animateBorderThree ease infinite;
+  @keyframes animateBorderThree {
+  to {
+    outline-color: 5px #E74C3C;
+    box-shadow: 0 0 5px #E74C3C ;
+  }
+  
+}
+
+
+" src="images/192.png"><br>
+<style type="text/css">
+
+	.ai{
+		margin-right: 260px;
+
+		margin-top: -250px;
+
+  box-shadow:    12px #E74C3C;
+  animation: 6s animateBorderThree ease infinite;
+}
+@keyframes animateBorderThree {
+  to {
+    outline-color: 8px #E74C3C;
+    box-shadow: 0 0 0 6px #E74C3C ;
+  }
+  
+}
+
+	}
+</style>
+</center>
+		<div class="contact100-more">
+
+			<i class="zmdi zmdi-phone-in-talk"></i>
+			<a href="" style="text-decoration: none;
+			text-decoration-line: none;"><font color="#39b54a"> DOCUMENTACION</font></a>
+		</div>
+
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" onsubmit="return validacion()">
+<!--validacion de nuestro formulario---->
+			
+				<span class="contact100-form-title">
+					<style type="text/css">
+						.contact100-form-title{
+							margin-top: -70px;
+						}
+					</style>
+					<center>
+					REGISTRATE
+				</center>
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Nombre de Usuario Requerido">
+					<span class="label-input100">Nombre</span>
+					<input  id="campo" class="input100" type="text" name="name" placeholder="Nombre de Usuario...">
+
+
+					<span class="focus-input100"></span>
+				</div>
+
+
+				<div class="wrap-input100 validate-input" data-validate = "Email Incorrecto">
+					<span class="label-input100">Correo</span>
+					<input class="input100" type="email" name="email" placeholder="Escribe un Correo...">
+					<span class="focus-input100"></span>
+				</div>
+
+
+				<div class="wrap-input100">
+					<span class="label-input100">Contraseña</span>
+					<input class="input100" type="password" name="contraseña" placeholder="Ingresa una Contraseña...">
+					<span class="focus-input100"></span>
+				</div>
+
+			
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+
+
+
+
+
+						<a href="">
+
+
+
+
+
+
+							<button onclick=acceder() class="contact100-form-btn">
+							REGISTRARSE
+						</button></a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function acceder(){
+			if (document.form.password.value='Contraseña' && document.form.name.value='Nombre') {
+				document.form.submit();
+
+
+
+			} else {
+
+				alert("Datos Invalidos");
+			}
+		}
+	</script>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>--->
+	<script src="js/map-custom.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
